@@ -1,0 +1,1 @@
+Cryptography protects data with secret keys and ciphers.
