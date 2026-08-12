@@ -1,0 +1,58 @@
+{
+    "component": {
+        "key": "cryptolabx-library-management",
+        "name": "CryptoLabX Library Management",
+        "qualifier": "TRK",
+        "measures": [
+            {
+                "metric": "coverage",
+                "value": "0.0",
+                "bestValue": false
+            },
+            {
+                "metric": "bugs",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "reliability_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "code_smells",
+                "value": "3",
+                "bestValue": false
+            },
+            {
+                "metric": "duplicated_lines_density",
+                "value": "0.0",
+                "bestValue": true
+            },
+            {
+                "metric": "security_rating",
+                "value": "1.0",
+                "bestValue": true
+            },
+            {
+                "metric": "ncloc",
+                "value": "269"
+            },
+            {
+                "metric": "vulnerabilities",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "security_hotspots",
+                "value": "0",
+                "bestValue": true
+            },
+            {
+                "metric": "sqale_rating",
+                "value": "1.0",
+                "bestValue": true
+            }
+        ]
+    }
+}

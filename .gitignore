@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 outputs/execution.log
 .DS_Store
+sonarqube-25.6.0.109173/
+sonarqube-25.6.0.109173.zip
+.scannerwork/
+*.db
+library.db

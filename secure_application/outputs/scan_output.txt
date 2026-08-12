@@ -1,0 +1,42 @@
+SonarQube Scan Output
+=====================
+Date: 2026-08-12
+Tool: SonarQube Community Build 25.6.0.109173
+Scanner: SonarScanner CLI 8.1.0.6389
+
+Project: CryptoLabX Library Management
+Key: cryptolabx-library-management
+Files Scanned: 1 (library_app.py)
+Language: Python
+Quality Profile: Sonar way
+
+SCAN RESULT: EXECUTION SUCCESS
+Total Time: 4.377s
+
+Dashboard URL: http://localhost:9000/dashboard?id=cryptolabx-library-management
+
+Issues Found: 3
+
+Issue 1:
+  Rule: python:S1192
+  Severity: CRITICAL
+  Message: Define a constant instead of duplicating this literal "library.db" 11 times.
+  File: secure_application/src/library_app.py
+  Line: 5
+  Type: CODE_SMELL
+
+Issue 2:
+  Rule: python:S1192
+  Severity: CRITICAL
+  Message: Define a constant instead of duplicating this literal "Error:" 5 times.
+  File: secure_application/src/library_app.py
+  Line: 150
+  Type: CODE_SMELL
+
+Issue 3:
+  Rule: python:S125
+  Severity: MAJOR
+  Message: Remove this commented out code.
+  File: secure_application/src/library_app.py
+  Line: 191
+  Type: CODE_SMELL

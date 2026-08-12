@@ -1,0 +1,366 @@
+{
+    "total": 3,
+    "p": 1,
+    "ps": 100,
+    "paging": {
+        "pageIndex": 1,
+        "pageSize": 100,
+        "total": 3
+    },
+    "effortTotal": 37,
+    "issues": [
+        {
+            "key": "f4fa6443-e6a1-445e-a313-aeead101a721",
+            "rule": "python:S1192",
+            "severity": "CRITICAL",
+            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+            "project": "cryptolabx-library-management",
+            "line": 5,
+            "hash": "524fe964658a8f8d8b1a9f33eb18bca3",
+            "textRange": {
+                "startLine": 5,
+                "endLine": 5,
+                "startOffset": 21,
+                "endOffset": 33
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 54,
+                                "endLine": 54,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 67,
+                                "endLine": 67,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 77,
+                                "endLine": 77,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 93,
+                                "endLine": 93,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 115,
+                                "endLine": 115,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 142,
+                                "endLine": 142,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 195,
+                                "endLine": 195,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 241,
+                                "endLine": 241,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 260,
+                                "endLine": 260,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 288,
+                                "endLine": 288,
+                                "startOffset": 25,
+                                "endOffset": 37
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal \"library.db\" 11 times.",
+            "effort": "22min",
+            "debt": "22min",
+            "author": "",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2026-08-12T16:55:31+0530",
+            "updateDate": "2026-08-12T16:55:31+0530",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false
+        },
+        {
+            "key": "1d3c7507-5e32-4848-99a7-339d9682ef51",
+            "rule": "python:S1192",
+            "severity": "CRITICAL",
+            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+            "project": "cryptolabx-library-management",
+            "line": 150,
+            "hash": "091b77935230e483762f2da765e18817",
+            "textRange": {
+                "startLine": 150,
+                "endLine": 150,
+                "startOffset": 14,
+                "endOffset": 22
+            },
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 170,
+                                "endLine": 170,
+                                "startOffset": 14,
+                                "endOffset": 22
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 202,
+                                "endLine": 202,
+                                "startOffset": 14,
+                                "endOffset": 22
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 248,
+                                "endLine": 248,
+                                "startOffset": 14,
+                                "endOffset": 22
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+                            "textRange": {
+                                "startLine": 295,
+                                "endLine": 295,
+                                "startOffset": 14,
+                                "endOffset": 22
+                            },
+                            "msg": "Duplication",
+                            "msgFormattings": []
+                        }
+                    ]
+                }
+            ],
+            "status": "OPEN",
+            "message": "Define a constant instead of duplicating this literal \"Error:\" 5 times.",
+            "effort": "10min",
+            "debt": "10min",
+            "author": "",
+            "tags": [
+                "design"
+            ],
+            "creationDate": "2026-08-12T16:55:31+0530",
+            "updateDate": "2026-08-12T16:55:31+0530",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "DISTINCT",
+            "cleanCodeAttributeCategory": "ADAPTABLE",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "HIGH"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false
+        },
+        {
+            "key": "228aba76-4ba5-445a-bab6-d15f4e6b21ee",
+            "rule": "python:S125",
+            "severity": "MAJOR",
+            "component": "cryptolabx-library-management:secure_application/src/library_app.py",
+            "project": "cryptolabx-library-management",
+            "line": 191,
+            "hash": "3b343b39a53acc9ad01aa28e3f81a3f9",
+            "textRange": {
+                "startLine": 191,
+                "endLine": 191,
+                "startOffset": 0,
+                "endOffset": 13
+            },
+            "flows": [],
+            "status": "OPEN",
+            "message": "Remove this commented out code.",
+            "effort": "5min",
+            "debt": "5min",
+            "author": "",
+            "tags": [
+                "unused"
+            ],
+            "creationDate": "2026-08-12T16:55:31+0530",
+            "updateDate": "2026-08-12T16:55:31+0530",
+            "type": "CODE_SMELL",
+            "scope": "MAIN",
+            "quickFixAvailable": false,
+            "messageFormattings": [],
+            "codeVariants": [],
+            "cleanCodeAttribute": "CLEAR",
+            "cleanCodeAttributeCategory": "INTENTIONAL",
+            "impacts": [
+                {
+                    "softwareQuality": "MAINTAINABILITY",
+                    "severity": "MEDIUM"
+                }
+            ],
+            "issueStatus": "OPEN",
+            "prioritizedRule": false
+        }
+    ],
+    "components": [
+        {
+            "key": "cryptolabx-library-management:secure_application/src/library_app.py",
+            "enabled": true,
+            "qualifier": "FIL",
+            "name": "library_app.py",
+            "longName": "secure_application/src/library_app.py",
+            "path": "secure_application/src/library_app.py"
+        },
+        {
+            "key": "cryptolabx-library-management",
+            "enabled": true,
+            "qualifier": "TRK",
+            "name": "CryptoLabX Library Management",
+            "longName": "CryptoLabX Library Management"
+        }
+    ],
+    "facets": []
+}
