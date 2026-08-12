@@ -1,52 +1,40 @@
 import sqlite3
 
-
-# Connect to database
 db = sqlite3.connect("cryptolabx.db")
 data = db.cursor()
 
-
-# MEMBER REGISTRATION
+# create member table
 data.execute("""
 CREATE TABLE IF NOT EXISTS members (
     mem_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL,
-    email TEXT NOT NULL UNIQUE
+    name VARCHAR(100),
+    email VARCHAR(100)
 )
 """)
 
-
-# BOOKS
+# create book table
 data.execute("""
 CREATE TABLE IF NOT EXISTS books (
     book_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT NOT NULL,
-    author TEXT NOT NULL,
-    available INTEGER NOT NULL DEFAULT 1
+    title VARCHAR(100),
+    author VARCHAR(100),
+    available INTEGER DEFAULT 1
 )
 """)
 
-
-# BOOK TRANSACTIONS
+# create transaction table
 data.execute("""
 CREATE TABLE IF NOT EXISTS transactions (
     transaction_id INTEGER PRIMARY KEY AUTOINCREMENT,
-    book_id INTEGER NOT NULL,
-    mem_id INTEGER NOT NULL,
-    issue_date TEXT NOT NULL,
+    book_id INTEGER,
+    mem_id INTEGER,
+    issue_date TEXT,
     return_date TEXT,
-    fine REAL DEFAULT 0,
-
-    FOREIGN KEY (book_id) REFERENCES books(book_id),
-    FOREIGN KEY (mem_id) REFERENCES members(mem_id)
+    fine REAL DEFAULT 0
 )
 """)
 
-
-# Save changes
 db.commit()
-
-# Close database
 db.close()
 
-print("Database and tables created successfully.")
+print("Database setup completed")
