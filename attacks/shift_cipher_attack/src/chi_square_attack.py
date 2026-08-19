@@ -46,8 +46,8 @@ def best_match(cipher_text):
 
     for shift in range(26):
         candidate = "".join(
-            chr((ord(c) - ord('A') - shift) % 26 + ord('A')) if c.isalpha() else c
-            for c in cipher_text.upper()
+            chr((ord(c) - ord('a') - shift) % 26 + ord('a')) if c.isalpha() else c
+            for c in cipher_text.lower()   
         )
         score = chi_square(candidate)
         if score < best_score:
