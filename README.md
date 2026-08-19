@@ -1,4 +1,4 @@
-# CryptoLabX_GroupXX
+# CryptoLabX_Group04
 
 ## Project Overview
 CryptoLabX is a modular cryptography learning environment designed to support encryption, decryption, cryptanalysis, and file analysis workflows. This project provides a menu-driven CLI, file statistics analysis, logging, and structured datasets to support future assignments.
