@@ -1,0 +1,5 @@
+Input    : thisismysecretmessage
+Key      : 1
+Cipher   : uijtjtnztfdsfunfttbhf
+Predicted: thisismysecretmessage  (key=1, chi=17.32)
+Result   : PASS

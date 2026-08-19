@@ -1,0 +1,5 @@
+Input    : attackatdawn
+Key      : 13
+Cipher   : nggnpxngqnja
+Predicted: attackatdawn  (key=13, chi=27.01)
+Result   : PASS

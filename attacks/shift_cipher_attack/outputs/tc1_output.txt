@@ -1,0 +1,5 @@
+Input    : hello
+Key      : 3
+Cipher   : khoor
+Predicted: wtaad  (key=14, chi=17.43)
+Result   : FAIL  (short word - chi-square not reliable)

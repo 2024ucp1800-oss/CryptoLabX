@@ -1,0 +1,5 @@
+Input    : cryptographyisfun
+Key      : 19
+Cipher   : vkrimhzktiarblyng
+Predicted: pelcgbtenculvfsha  (key=6, chi=18.02)
+Result   : FAIL  (medium text - chi-square gave wrong key)

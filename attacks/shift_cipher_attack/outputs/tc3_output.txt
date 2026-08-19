@@ -1,0 +1,5 @@
+Input    : thequickbrownfoxjumpsoverthelazydog
+Key      : 7
+Cipher   : aolxbpjriyvdumveqbtwzvclyaolshgfkvn
+Predicted: thequickbrownfoxjumpsoverthelazydog  (key=7, chi=115.02)
+Result   : PASS
